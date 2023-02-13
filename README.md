@@ -1,2 +1,4 @@
 # Instruction-Validator-
 An instruction validator that verifies the validity of user-inputted instructions.
+
+The "Instruction Validator" is a program that verifies the validity of user-inputted instructions. The program stores three predefined instructions in an array, converts them to lowercase, and creates a map for each lowercase instruction. The map consists of characters as keys and the frequency of their appearance in the instruction as values. When a new instruction is inputted by the user, the program converts it to lowercase and creates a similar map. The program then compares the new inputted map to each map stored in the validationData vector. If the new map is equal to any of the maps in the validationData vector, the program outputs a message saying that the instruction can't be added to the database.
